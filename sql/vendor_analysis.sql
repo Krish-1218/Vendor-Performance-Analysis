@@ -1,5 +1,4 @@
 
-
 -- View Raw Data
 SELECT * FROM sales;
 
