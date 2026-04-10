@@ -1,4 +1,4 @@
---  Vendor Performance Analysis
+
 
 -- View Raw Data
 SELECT * FROM sales;
