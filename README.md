@@ -4,7 +4,7 @@
 
 ## 🚀 Project Overview
 
-This project analyzes vendor performance using sales, purchase, and inventory data to uncover insights that help improve profitability and decision-making.
+This project analyzes vendor performance using sales, purchase, and inventory data to uncover insights that improve profitability and decision-making.
 
 The project follows a complete data analytics pipeline:
 **SQL → Python → Power BI**
@@ -17,17 +17,17 @@ Organizations work with multiple vendors, but not all contribute equally to reve
 
 Key challenges:
 
-* Identify top-performing vendors
-* Detect loss-making products/vendors
-* Understand impact of pricing and inventory
+- Identify top-performing vendors
+- Detect loss-making vendors/products
+- Understand cost and profitability impact
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-* **Python (Pandas)** → Data cleaning & transformation
-* **SQL** → Data extraction & joins (conceptual)
-* **Power BI** → Dashboard & visualization
+- **SQL (MySQL)** → Data extraction & joins
+- **Python (Pandas)** → Data cleaning & validation
+- **Power BI** → Dashboard & visualization
 
 ---
 
@@ -35,36 +35,37 @@ Key challenges:
 
 Due to GitHub file size limitations, raw datasets are hosted on Google Drive:
 
-👉 **Download Data:**
+👉 **Download Data:**  
 https://drive.google.com/drive/folders/1cRptR1j5f0j26V8KkdGGt9uIKGr2GChx?usp=sharing
 
 ---
 
 ## 📁 Project Structure
 
-```
 Vendor-Performance-Analysis/
 │
-├── data/
-│   ├── raw/                 # (Drive link provided)
-│   ├── processed/
-│   │   └── final_dataset.csv
-│
-├── scripts/
-│   └── data_processing.py
-│
-├── sql/
-│   └── vendor_analysis.sql
-│
 ├── dashboard/
-│   └── vendor_dashboard.pbix
+│ └── vendor_dashboard.pbix # Power BI dashboard
+│
+├── data/
+│ ├── raw/ # Raw datasets (Google Drive)
+│ └── processed/ # Cleaned datasets
 │
 ├── images/
-│   └── dashboard.png
+│ └── dashboard.png # Dashboard preview
+│
+├── notebooks/
+│ └── data_processing.ipynb # Python analysis & validation
+│
+├── reports/
+│ ├── Vendor_Performance_Report.pdf
+│ └── Vendor_Performance_Dashboard_Presentation.pptx
+│
+├── sql/
+│ └── vendor_analysis.sql # SQL queries
 │
 ├── README.md
 └── .gitignore
-```
 
 ---
 
@@ -72,74 +73,110 @@ Vendor-Performance-Analysis/
 
 1. **Data Collection**
 
-   * Multiple CSV files (sales, purchases, inventory, vendor)
+   - Multiple datasets (sales, purchases, inventory)
 
-2. **Data Processing (Python)**
+2. **SQL Analysis**
 
-   * Data cleaning
-   * Handling missing values
-   * Merging datasets
-   * KPI creation
+   - Data extraction
+   - Joins and aggregations
+   - KPI calculations
 
-3. **Data Analysis**
+3. **Python Processing**
 
-   * Revenue, cost, profit calculation
-   * Inventory turnover
+   - Data cleaning
+   - Merging datasets
+   - KPI validation
 
-4. **Visualization (Power BI)**
-
-   * Interactive dashboard
-   * Vendor performance insights
+4. **Power BI Dashboard**
+   - KPI cards (Revenue, Cost, Profit, Margin)
+   - Top 10 vendor analysis
+   - Profit vs Cost comparison
+   - Waterfall (Revenue → Cost → Profit)
 
 ---
 
 ## 📊 Key Insights
 
-* A small group of vendors contributes the majority of revenue
-* Some vendors consistently generate losses
-* Inventory turnover varies significantly across products
-* Profit margins are affected by purchase pricing
+- A small group of vendors contributes most of the revenue
+- High costs significantly reduce profitability
+- Vendor performance varies across the dataset
+- Profit margin remains stable (~30%)
 
 ---
 
 ## 📈 KPIs Created
 
-* Revenue
-* Cost
-* Profit
-* Profit Margin
-* Inventory Turnover
+- Total Revenue
+- Total Cost
+- Total Profit
+- Profit Margin
+- Inventory Turnover
 
 ---
 
 ## 💡 Business Recommendations
 
-* Focus on high-performing vendors
-* Reduce dependency on low-profit vendors
-* Optimize pricing and procurement strategies
-* Improve inventory management
+- Focus on high-margin vendors
+- Reduce dependency on high-cost vendors
+- Optimize procurement strategies
+- Improve inventory efficiency
 
 ---
 
 ## 🧠 Skills Demonstrated
 
-* Data Cleaning & Transformation
-* Data Integration (Multi-table)
-* SQL Joins (conceptual)
-* KPI Development
-* Dashboard Design
+- Data Cleaning & Transformation
+- SQL Joins & Aggregation
+- Python Data Analysis
+- KPI Development
+- Dashboard Design (Power BI)
+
+---
+
+## 📊 Dashboard Preview
+
+![Dashboard](images/dashboard.png)
+
+---
+
+## 📑 Project Presentation
+
+You can view the project presentation here:
+
+📂 **PPT File:**  
+reports/Vendor_Performance_Dashboard_Presentation.pptx
+
+This presentation includes:
+
+- Project overview
+- Problem statement
+- Data analysis process
+- Dashboard insights
+- Key findings
+
+---
+
+## 📄 Project Report
+
+📂 **Report File:**  
+reports/Vendor_Performance_Report.pdf
+
+This report includes:
+
+- Detailed analysis
+- SQL & Python workflow
+- Dashboard explanation
+- Business insights
 
 ---
 
 ## 📌 Note
 
-> Raw datasets are not included in this repository due to GitHub size limitations. Please use the provided Google Drive link to access the data.
+> Raw datasets are not included due to GitHub size limits. Use the Google Drive link to access data.
 
 ---
 
 ## 👨‍💻 Author
 
-**Krishna Bhise**
-Data Analytics Enthusiast
-
-
+**Krishna Bhise**  
+Aspiring Data Analyst | SQL • Python • Power BI
