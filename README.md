@@ -1,3 +1,6 @@
+![Power BI](https://img.shields.io/badge/Tool-PowerBI-yellow)
+![Python](https://img.shields.io/badge/Language-Python-blue)
+![SQL](https://img.shields.io/badge/Database-SQL-green)
 # 📊 Vendor Performance Analysis
 
 ---
