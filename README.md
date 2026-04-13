@@ -45,24 +45,24 @@ https://drive.google.com/drive/folders/1cRptR1j5f0j26V8KkdGGt9uIKGr2GChx?usp=sha
 Vendor-Performance-Analysis/
 │
 ├── dashboard/
-│ └── vendor_dashboard.pbix # Power BI dashboard
+│   └── vendor_dashboard.pbix        # Power BI dashboard
 │
 ├── data/
-│ ├── raw/ # Raw datasets (Google Drive)
-│ └── processed/ # Cleaned datasets
+│   ├── raw/                        # Raw datasets (Google Drive)
+│   └── processed/                  # Cleaned datasets
 │
 ├── images/
-│ └── dashboard.png # Dashboard preview
+│   └── dashboard.png               # Dashboard preview
 │
 ├── notebooks/
-│ └── data_processing.ipynb # Python analysis & validation
+│   └── data_processing.ipynb       # Python analysis & validation
 │
 ├── reports/
-│ ├── Vendor_Performance_Report.pdf
-│ └── Vendor_Performance_Dashboard_Presentation.pptx
+│   ├── Vendor_Performance_Report.pdf
+│   └── Vendor_Performance_Dashboard_Presentation.pptx
 │
 ├── sql/
-│ └── vendor_analysis.sql # SQL queries
+│   └── vendor_analysis.sql         # SQL queries
 │
 ├── README.md
 └── .gitignore
